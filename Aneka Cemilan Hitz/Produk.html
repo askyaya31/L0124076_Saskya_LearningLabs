@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aneka Cemilan Hitz</title>
+    <style>
+        body {
+            font-size: 20px;
+            background-color: #f5f5dc; 
+            margin: 0;
+            padding: 0;
+        }
+        h4, h3 {
+            font-size: 28px;
+            color: #8b4513; 
+        }
+        h4 {
+            text-align: center; 
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+        hr {
+            border: none;
+            height: 3px;
+            background-color: #8b4513; 
+            margin: 20px 0;
+        }
+        .best-product-images, .product-details {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .product-details {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .product-details img {
+            margin-bottom: 10px;
+        }
+        .button {
+            background-color: #8b4513; 
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #5a2e1a; 
+        }
+
+        .nav-container {
+            background-color: #8b4513; 
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+
+        .nav-container a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 0 15px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #5a2e1a; 
+        }
+
+        .nav-container a:hover {
+            background-color: #d2691e; 
+        }
+        .content-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 1200px; 
+        }
+
+        main {
+            flex: 0 0 70%; 
+            padding: 10px;
+        }
+
+        aside {
+            background-color: #f8e4c3;
+            padding: 1px;
+            margin: 20px auto;
+            width: 50%;
+            border-left: 5px solid #8b4513;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 10px;
+            background-color: #8b4513;
+            color: white;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="image/title.jpeg" width="100%" alt="title">
+    <hr>
+
+    <div class="nav-container">
+        <a href="Home.html">Home</a>
+        <a href="Produk.html">Produk</a>
+        <a href="Feedback.html">Feedback</a>
+    </div>
+
+    <div class="content-container">
+        <main>
+            <h4>3 BEST PRODUCT!</h4>
+            <div class="best-product-images">
+                <img src="image/poster1.png" height="200px" width="200px" alt="Poster" title="Poster Lovely Cake">
+                <img src="image/poster2.png" height="307px" width="160px" alt="Poster" title="Poster Makaroni Pedas">
+                <img src="image/poster3.png" height="319px" width="160px" alt="Poster" title="Poster Lovely Cake">
+            </div>
+
+            <p>Bingung cari cemilan yang lagi hitz tapi murah dan enak?? Ini dia aku kasih rekomendasi nya!! 
+                Mulai dari brownies potong yang rasanya lembut dan nyoklat abiss. Ada juga Kripik Singkong yang 
+                cocok buat temen nyemil kamu saat bersantai. Lalu ngga ketinggalan juga ada makaroni yang buat 
+                kamu ngga berhenti makan karena saking enaknya deh!</p>
+            <hr>
+
+            <div class="product-details">
+                <h3 id="Brownies Potong">Brownies Potong</h3>
+                <img src="image/produk1.png" height="200px" width="200px" alt="Produk" title="Produk Lovely Cake">
+                <a href="https://drive.google.com/file/d/1OUBjjZYSj8iDyVsQcioNi9GIp-mpt9cV/view?usp=sharing" target="_blank" class="button">Video Produk</a>
+                <p>Pengen brownies tapi yang versi murah? Ini dia "Brownies Potong" dengan rasanya yang enak, lembut, 
+                    dan juga pastinya murah. Dibuat dengan dark chocolate yang membuat brownies ini memiliki rasa yang 
+                    nyoklat abizz. Hingga setiap gigitannya membuat kalian ketagihan. Di taburi dengan topping chocochips 
+                    yang membuat brownies ini lebih menarik. Kamu bisa dapetin brownies ini hanya Rp 2.000 per potongnya.</p>
+                <p><strong>Harga:</strong> Rp 2.000/potong</p>
+                <a href="https://www.instagram.com/lovelycake_ofc?igsh=d2xxdDR4dGVxOXlp" target="_blank" class="button">Order</a>
+            </div>
+            <hr>
+
+            <div class="product-details">
+                <h3 id="Makaroni Pedas">Makaroni Pedas</h3>
+                <img src="image/produk2.png" height="200px" width="200px" alt="Produk" title="Produk Makaroni Pedas">
+                <a href="https://drive.google.com/file/d/1NhaeEIbAIdT9FKb0mbCQ22Eur59J6cu0/view?usp=sharing" target="_blank" class="button">Video Produk</a>
+                <p>Tau ga sih!! Ada makaroni yang gurih dan enak tapi murah!! Ini dia "Makaroni Pedas" dengan cita rasanya yang gurih, enak, dan kriuk banget 
+                    loh! Pedesnya yang nampol bikin kamu sampe ketagihan deh. Cemilan hitz ini juga simple buat dibawa kemanapun. Hanya Rp 3.000 kamu bisa 
+                    dapetin makaroni yang hitz ini dengan ukuran seperti digambar ya.</p>
+                <p><strong>Harga:</strong> Rp 3.000/100 gram</p>
+                <a href="https://wa.me/6287805753216" target="_blank" class="button">Order</a>
+            </div>
+            <hr>
+
+            <div class="product-details">
+                <h3 id="Keripik Singkong">Keripik Singkong</h3>
+                <img src="image/produk3.png" height="200px" width="200px" alt="Produk" title="Produk Keripik Singkong">
+                <a href="https://drive.google.com/file/d/1Ng8M6MxMXfWFT0GCObvk4vyIKVJeD0ho/view?usp=sharing" target="_blank" class="button">Video Produk</a>
+                <p>Bosen sama rasa singkong yang gitu-gitu aja? Ini dia ada kreasi dari singkong terbaru yaitu "Keripik Singkong". Disajikan dengan 2 jenis 
+                    keripik singkong yang berbeda yaitu dengan bumbu balado dan tanpa bumbu balado. Namun memiliki cita rasa yang sama yaitu gurih, enak, 
+                    dan juga kriuk. Cocok banget buat kamu yang lagi cari cemilan hitz buat nemenin kamu belajar ataupun bersantai.</p>
+                <p><strong>Harga:</strong> Rp 2.500/100 gram</p>
+                <a href="https://wa.me/62859138904798" target="_blank" class="button">Order</a>
+            </div>
+        </main>
+    </div>
+
+    <aside>
+        <h4>CHECKOUT NOW!</h4>
+    </aside>
+
+    <footer>
+        <p>&copy; Learning Labs 2024 L0124076 Saskya Aliya Azizah</p>
+    </footer>
+
+</body>
+</html>
